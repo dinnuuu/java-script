@@ -172,21 +172,32 @@
 
 
 
-     let selector = document.querySelector('#a')
-
-     console.log(selector)
+l
 
      let selectors=   document.querySelectorAll('.b')
 
        console.log( selectors)
 
-    
-       
+      
+
+
+
+       // action
+
+       let selector = document.querySelector('#a')
+
+
+       selector.addEventListener('click',function(){
+           
+                selector.style.color ='blue'
+                selector.textContent = 'dinesh varma'
+
+       })
 
 
 
 
-       
+
 
 
 
